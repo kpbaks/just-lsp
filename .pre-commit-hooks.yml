@@ -1,0 +1,9 @@
+---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/j178/prek/master/prek-hooks.schema.json
+
+- id: "just-lsp-analyze"
+  name: "just-lsp-analyze"
+  language: "rust"
+  entry: "just-lsp analyze"
+  pass_filenames: true
+  files: "\\.?[Jj][Uu][Ss][Tt][Ff][Ii][Ll][Ee]"
